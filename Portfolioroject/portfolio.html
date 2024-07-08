@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,200&display=swap');
+      </style>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+    <div class="container">
+       <div class="bubble"></div>
+       <div class="bubble1"></div>
+       <!-- <div class="bubble"></div>
+       <div class="bubble"></div>
+       <div class="bubble"></div>
+       <div class="bubble"></div>
+       <div class="bubble"></div>
+       <div class="bubble"></div>
+       <div class="bubble"></div>
+       <div class="bubble"></div> -->
+
+        <div id="page1">
+            <nav>
+                <h1 class="logo">Portfolio</h1>
+                <ul class="nav-one-ul">
+                    <li><a href="#page1" class="home">home</a></li>
+                    <li><a href="#page2" class="about">About</a></li>
+                    <li><a href="#page3" class="projects">Projects</a></li>
+                    <li><a href="#page4" class="contact">Contact</a></li>
+
+                </ul>
+                <div class="icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+            <div class="name">
+                <img src="./hi.gif" alt="" id="hi"> <Span class="hey">HEY!</Span><span class="hey">I'am</span>
+                <h1 class="nithin">SIVASHANKAR</h1>
+            </div>
+            <div class="fancy">
+
+            </div>
+        </div>
+
+        <div id="page2">
+            <div class="aboutcontainer">
+                <div class="pic">
+                    <img src="./Shiva.jpg" alt="Image Not Found">
+                </div>
+                <div class="about-me">
+                    <h1>About Me</h1>
+                    <div class="split">
+                        <div class="details">
+                            <p>Name :</p>
+                            <p>Date Of Birth :</p>
+                            <p>Address :</p>
+                            <p>Pin-code :</p>
+                            <p>Email :</p>
+                            <p>Phone :</p>
+                        </div>
+                        <div class="details">
+                            <p>Sivashankar Rajendran</p>
+                            <p>13-06-2002</p>
+                            <p>Karur,Tamilnadu</p>
+                            <p>639102</p>
+                            <p>sivashankarrajendran13@gmail.com</p>
+                            <p>9360761063</p>
+                        </div>
+                    </div>
+                    <a href="./Sivashankar_CV.docx" download="SIVASHANKAR CV"><button class="cv" >DOWNLOAD CV</button></a>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div id="page3">
+            <div class="projectcont">
+                <div class="kissflow" id="done">
+                
+                    <img src="./kissflow.webp" alt="">
+                   
+                    <p><a href="https://github.com/Sivashankar-R/Kissflow-clone">Kissflow Website Clone</a></p>
+                </div>
+                <div class="meesho_clone"  id="done">
+                  
+                    <img src="./Budjet.jpg" alt=""  style="margin-bottom: 10px;">
+                    
+                    <p><a href="https://github.com/Sivashankar-R/Budget-Planner">Budget-Planner</a></p>
+                </div>
+                <div class="project-3"  id="done"></div>
+            </div>
+        </div>
+
+        <div id="page4">
+         
+                <form action="https://formsubmit.co/sivashankarrajendran13@gmail.com" method="post" class="contact-details">
+                    <h1>GET IN TOUCH</h1>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email"placeholder="Your Email" required>
+                    <input type="text"placeholder="Subject" required>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message" required></textarea>
+                     <input type="hidden" name="_autoresponse" value="thankyou for submitting the form">
+
+                     <button class="submit">Send</button>
+                </form>
+
+           
+            <div class="get-in-touch">
+
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="portfolio.js"></script>
+</body>
+</html>
